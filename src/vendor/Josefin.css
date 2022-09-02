@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../vendor/JosefinSans-200-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../vendor/JosefinSans-400-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../vendor/JosefinSans-700-Bold.ttf") format("truetype");
+}

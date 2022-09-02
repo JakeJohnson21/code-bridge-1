@@ -1,0 +1,11 @@
+.main__modal {
+  display: flex;
+  width: 1000px;
+  max-height: fit-content;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

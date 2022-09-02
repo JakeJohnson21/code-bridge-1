@@ -1,0 +1,8 @@
+.data__content_is-open {
+  visibility: visible;
+  pointer-events: all;
+  opacity: 1;
+  min-width: 1000px;
+
+  transition: visibility 0s, opacity;
+}

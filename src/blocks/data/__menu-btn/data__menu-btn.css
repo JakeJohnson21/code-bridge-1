@@ -1,0 +1,11 @@
+.data__menu-btn {
+  background-color: gainsboro;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 10px auto;
+}
+
+.data__menu-btn:hover {
+  background-color: gray;
+}

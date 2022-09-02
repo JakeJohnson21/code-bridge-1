@@ -1,0 +1,8 @@
+.header__title {
+  font-family: "comfortaa";
+  font-weight: 700;
+  font-size: 72px;
+  max-width: 1200px;
+  text-align: center;
+  margin: 100px auto 20px;
+}

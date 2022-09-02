@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+p,
+h1,
+h2,
+h3,
+h4,
+img,
+main,
+header,
+footer,
+div,
+ul,
+li {
+  border: 1px solid red;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(vendor/normalize.css);
+@import url(vendor/Comfortaa.css);
+@import url(blocks/header/header.css);
+@import url(blocks/header/__title/header__title.css);
+@import url(blocks/header/__subtitle/header__subtitle.css);
+@import url(blocks/header/__text-content/header__text-content.css);
+@import url(blocks/page/page.css);
+@import url(blocks/footer/footer.css);
+@import url(blocks/footer/__creator/footer__creator.css);
+@import url(blocks/image/image.css);
+@import url(blocks/image/image__cov-plane.css);
+@import url(blocks/image/image__plane-cut.css);
+@import url(blocks/data/__content/data__content.css);
+@import url(blocks/data/__image/data__image.css);
+@import url(blocks/data/__subtitle/data__subtitle.css);
+@import url(blocks/data/__text-container/data__text-container.css);
+@import url(blocks/data/__title/data__title.css);
+@import url(blocks/data/__graph/data__graph.css);
+@import url(blocks/data/__grid/data__grid.css);
+@import url(blocks/content/content.css);
+@import url(blocks/data/__menu-btn/data__menu-btn.css);
+@import url(blocks/data/__menu-btn_container/data__menu-btn_container.css);
+@import url(blocks/main/main__modal.css);
+@import url(blocks/data/__content/_is-open/data__content_is-open.css);

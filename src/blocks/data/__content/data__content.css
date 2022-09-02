@@ -1,0 +1,12 @@
+.data__content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 1000px;
+  border: 5px solid black;
+  margin: auto;
+  visibility: hidden;
+  opacity: 0;
+
+  background-color: rgb(147, 147, 147);
+}

@@ -1,0 +1,7 @@
+.main__position-box {
+  display: flex;
+  position: relative;
+  width: 1000px;
+  min-height: fit-content;
+  margin: auto;
+}

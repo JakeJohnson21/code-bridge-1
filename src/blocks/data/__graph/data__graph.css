@@ -1,0 +1,6 @@
+.data__graph {
+  border: 3px solid blue;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  min-height: 400px;
+}
