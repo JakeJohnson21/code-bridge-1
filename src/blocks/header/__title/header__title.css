@@ -6,11 +6,11 @@
   text-align: center;
   margin: 100px auto 20px;
   color: #0000;
-  background: linear-gradient(90deg, #1891e2 50%, #000 0) var(--_p, 100%) / 200%
-    no-repeat;
+  background: linear-gradient(90deg, rgb(103, 103, 103) 50%, #1891e2 0)
+    var(--_p, 100%) / 200% no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
-  transition: 2s;
+  transition: 4s;
 }
 .header__title:hover {
   --_p: 0%;

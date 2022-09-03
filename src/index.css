@@ -45,3 +45,6 @@ li {
 @import url(blocks/cover/__text-content/cover__text-content.css);
 @import url(blocks/data/__menu-btn/_active/data__menu-btn_active.css);
 @import url(blocks/main/__content/main__content.css);
+@import url(blocks/cover/__label/cover__label.css);
+@import url(blocks/cover/__label/_item/cover__label_item.css);
+@import url(blocks/chart/chart.css);

@@ -4,13 +4,16 @@
   flex-direction: column;
   max-width: 180px;
   left: 15px;
-  top: 90px;
+  top: 180px;
 }
 
 .data__menu-btn_container:hover > .data__menu-btn {
   width: 140px;
   border-radius: 25px;
   right: 0;
+  font-size: 15px;
+  overflow: visible;
+  color: white;
 }
 .data__menu-btn_container:hover + .main__content {
   left: 180px;
@@ -19,4 +22,15 @@
 .data__menu-btn_container + .main__content {
   left: 80px;
   transition: left 0.4s 0.15s ease;
+}
+.data__menu-btn_container:hover
+  + .main__content
+  > .cover__content
+  > .cover__label {
+  opacity: 0;
+  transition: opacity 0.2s 0s ease;
+}
+.data__menu-btn_container + .main__content > .cover__content > .cover__label {
+  opacity: 1;
+  transition: opacity 0.3s 0.45s ease;
 }

@@ -1,6 +1,6 @@
-import React from "react";
+import React, { Children } from "react";
 
-function MenuBtn({ button, setButton, closeAll }) {
+function MenuBtn({ button, setButton, closeAll, children }) {
   function toggleBtn() {
     if (!button) {
       return setButton();
@@ -15,7 +15,9 @@ function MenuBtn({ button, setButton, closeAll }) {
       }`}
       onClick={toggleBtn}
       type="button"
-    ></button>
+    >
+      {children}
+    </button>
   );
 }
 

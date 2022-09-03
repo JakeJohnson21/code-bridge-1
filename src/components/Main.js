@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Analysis from "./Analysis";
 import Cover from "./Cover";
 import MenuBtn from "./MenuBtn";
+import Interactive from "./Interactive";
 
 function Main() {
   const [isDataOneOpen, setIsDataOneOpen] = useState(false);
@@ -46,26 +47,34 @@ function Main() {
           button={isDataOneOpen}
           setButton={handleIsDataOneOpen}
           closeAll={handleCloseAllPopups}
-        />
+        >
+          Heat Map
+        </MenuBtn>
         <MenuBtn
           button={isDataTwoOpen}
           setButton={handleIsDataTwoOpen}
           closeAll={handleCloseAllPopups}
-        />
+        >
+          map 2
+        </MenuBtn>
         <MenuBtn
           button={isDataThreeOpen}
           setButton={handleIsDataThreeOpen}
           closeAll={handleCloseAllPopups}
-        />
+        >
+          map 3
+        </MenuBtn>
         <MenuBtn
           button={isDataFourOpen}
           setButton={handleIsDataFourOpen}
           closeAll={handleCloseAllPopups}
-        />
+        >
+          map 4
+        </MenuBtn>
       </div>
       <div className="main__content">
         <Cover isDataOpen={isDataOpen} />
-        <div className="slide"></div>
+
         <Analysis
           dataTitle="Airport Heat Map"
           dataSubtitle="I am the subtitle for the airport heat map"
@@ -88,7 +97,7 @@ function Main() {
           name="three"
           isOpen={isDataThreeOpen}
         />
-        <Analysis
+        <Interactive
           dataTitle="Emissions"
           dataSubtitle="I am the subtitle for the airport heat map"
           dataImage=""

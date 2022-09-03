@@ -1,6 +1,8 @@
 .cover__text-content {
   position: absolute;
-  color: rgb(37, 37, 37);
-  left: 110px;
-  top: 140px;
+  color: rgb(40, 40, 40);
+  left: 200px;
+  top: 70px;
+  text-align: center;
+  margin: auto;
 }

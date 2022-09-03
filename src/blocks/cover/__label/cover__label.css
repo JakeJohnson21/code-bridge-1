@@ -1,0 +1,7 @@
+.cover__label {
+  position: absolute;
+  font-weight: 500;
+  left: -10px;
+  top: 136px;
+  color: rgb(40, 40, 40);
+}

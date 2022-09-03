@@ -1,14 +1,6 @@
 import React from "react";
 
-function Analysis({
-  dataTitle,
-  dataSubtitle,
-  dataImage,
-  children,
-  isOpen,
-  name,
-  isClosed,
-}) {
+function Analysis({ dataTitle, dataSubtitle, dataImage, children, isOpen }) {
   return (
     <div
       className={` data__content  ${
