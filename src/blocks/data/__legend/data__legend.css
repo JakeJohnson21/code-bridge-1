@@ -1,0 +1,8 @@
+.data__legend {
+  grid-column: 1/4;
+  grid-row: 3/4;
+  border: 1px solid rgb(206, 206, 206, 0.2);
+  min-height: 100px;
+  margin: 20px;
+  border-radius: 15px;
+}

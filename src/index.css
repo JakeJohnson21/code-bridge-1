@@ -1,4 +1,4 @@
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -11,7 +11,7 @@ div,
 ul,
 li {
   border: 1px solid red;
-}
+} */
 @import url(vendor/normalize.css);
 @import url(vendor/Comfortaa.css);
 @import url(blocks/header/header.css);
@@ -21,6 +21,7 @@ li {
 @import url(blocks/page/page.css);
 @import url(blocks/footer/footer.css);
 @import url(blocks/footer/__creator/footer__creator.css);
+@import url(blocks/footer/__content/footer__content.css);
 @import url(blocks/image/image.css);
 @import url(blocks/image/image__cov-plane.css);
 @import url(blocks/image/image__plane-cut.css);
@@ -31,8 +32,14 @@ li {
 @import url(blocks/data/__title/data__title.css);
 @import url(blocks/data/__graph/data__graph.css);
 @import url(blocks/data/__grid/data__grid.css);
+@import url(blocks/data/__label/data__label.css);
+@import url(blocks/data/__legend/data__legend.css);
 @import url(blocks/content/content.css);
 @import url(blocks/data/__menu-btn/data__menu-btn.css);
 @import url(blocks/data/__menu-btn_container/data__menu-btn_container.css);
 @import url(blocks/main/main__modal.css);
 @import url(blocks/data/__content/_is-open/data__content_is-open.css);
+@import url(blocks/cover/__content/cover__content.css);
+@import url(blocks/cover/__title/cover__title.css);
+@import url(blocks/cover/__subtitle/cover__subtitle.css);
+@import url(blocks/cover/__text-content/cover__text-content.css);

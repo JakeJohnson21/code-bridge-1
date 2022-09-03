@@ -1,3 +1,4 @@
+import React from "react";
 //import "./App.css";
 import Main from "./Main";
 import Footer from "./Footer";
@@ -9,6 +10,7 @@ function App() {
       <section className="page">
         <Header />
         <Main />
+        <div className="box"></div>
         <Footer />
       </section>
     </div>

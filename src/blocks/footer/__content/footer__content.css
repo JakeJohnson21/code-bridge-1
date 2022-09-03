@@ -1,0 +1,6 @@
+.footer__content {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  min-height: 150px;
+}

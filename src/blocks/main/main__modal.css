@@ -1,11 +1,23 @@
 .main__modal {
   display: flex;
-  width: 1000px;
-  max-height: fit-content;
-  margin: auto;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  max-width: 1000px;
+  position: relative;
+  min-height: 697px;
+  margin: 80px auto auto auto;
+  position: relative;
+  /* background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  border-radius: 40px;
+  box-sizing: border-box;
+  border: 10px solid rgb(255, 255, 255);
+  background-color: white;
+  box-shadow: 3px 15px 15px rgba(48, 48, 48, 0.4);
+}
+.analysis__box {
+  display: flex;
+  margin-right: 20px;
 }

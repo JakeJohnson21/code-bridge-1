@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import DataOne from "./DataOne";
-import DataTwo from "./DataTwo";
-import DataThree from "./DataOne";
-import DataFour from "./DataFour";
+import Analysis from "./Analysis";
+import Cover from "./Cover";
 
 function Main() {
   const [isDataOneOpen, setIsDataOneOpen] = useState(false);
@@ -34,48 +32,59 @@ function Main() {
   }
 
   return (
-    <main className="content">
-      <div className="main__modal">
-        <div className="data__menu-btn_container">
-          <button
-            className="data__menu-btn"
-            onClick={handleIsDataOneOpen}
-            type="button"
-          ></button>
-          <button
-            className="data__menu-btn"
-            onClick={handleIsDataTwoOpen}
-            type="button"
-          ></button>
-          <button
-            className="data__menu-btn"
-            onClick={handleIsDataThreeOpen}
-            type="button"
-          ></button>
-          <button
-            className="data__menu-btn"
-            onClick={handleIsDataFourOpen}
-            type="button"
-          ></button>
-        </div>
-        <DataOne
-          dataTitle="Airport Heat Map"
-          dataImage=""
-          isOpen={isDataOneOpen}
-        />
-        <DataTwo
-          dataTitle="Emissions at the airport"
-          dataImage=""
-          isOpen={isDataTwoOpen}
-        />
-        <DataThree
-          dataTitle="COVID DID WHAT"
-          dataImage=""
-          isOpen={isDataThreeOpen}
-        />
-        <DataFour dataTitle="Emissions" dataImage="" isOpen={isDataFourOpen} />
+    <div className="main__modal">
+      <div className="data__menu-btn_container">
+        <button
+          className="data__menu-btn"
+          onClick={handleIsDataOneOpen}
+          type="button"
+        ></button>
+        <button
+          className="data__menu-btn"
+          onClick={handleIsDataTwoOpen}
+          type="button"
+        ></button>
+        <button
+          className="data__menu-btn"
+          onClick={handleIsDataThreeOpen}
+          type="button"
+        ></button>
+        <button
+          className="data__menu-btn"
+          onClick={handleIsDataFourOpen}
+          type="button"
+        ></button>
       </div>
-    </main>
+      <Cover />
+      <Analysis
+        dataTitle="Airport Heat Map"
+        dataSubtitle="I am the subtitle for the airport heat map"
+        dataImage=""
+        name="one"
+        isOpen={isDataOneOpen}
+      />
+      <Analysis
+        dataTitle="Emissions at the airport"
+        dataSubtitle="I am the subtitle for the emissions"
+        dataImage=""
+        name="two"
+        isOpen={isDataTwoOpen}
+      />
+      <Analysis
+        dataTitle="COVID DID WHAT"
+        dataSubtitle="I am the subtitle for the covid"
+        dataImage=""
+        name="three"
+        isOpen={isDataThreeOpen}
+      />
+      <Analysis
+        dataTitle="Emissions"
+        dataSubtitle="I am the subtitle for the airport heat map"
+        dataImage=""
+        name="four"
+        isOpen={isDataFourOpen}
+      />
+    </div>
   );
 }
 

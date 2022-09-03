@@ -1,4 +1,8 @@
 .data__grid {
   display: grid;
+  grid-template-columns: 1fr repeat(3, 2fr);
+  grid-template-rows: repeat(3 minmax(0, 1fr));
   position: relative;
+
+  justify-content: space-between;
 }
