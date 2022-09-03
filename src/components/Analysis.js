@@ -7,11 +7,12 @@ function Analysis({
   children,
   isOpen,
   name,
+  isClosed,
 }) {
   return (
     <div
-      className={`data__content js-${name}-modal ${
-        isOpen ? "data__content_is-open" : ""
+      className={` data__content  ${
+        isOpen ? "data__content_is-open" : "data__content_transform"
       }`}
     >
       <h2 className="data__title">{dataTitle}</h2>

@@ -1,0 +1,10 @@
+.main__content {
+  overflow: hidden;
+  position: absolute;
+  left: 80px;
+  background-color: beige;
+  max-width: 1000px;
+  right: 0;
+  min-height: 675px;
+  border-radius: 30px;
+}

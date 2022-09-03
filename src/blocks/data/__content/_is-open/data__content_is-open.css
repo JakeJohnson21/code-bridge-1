@@ -1,4 +1,12 @@
 .data__content_is-open {
   visibility: visible;
   opacity: 1;
+  transform: translateX(0px);
+  transition: transform ease 0.8s;
+}
+.data__content_transform {
+  visibility: visible;
+  transform: translateX(1000px);
+  opacity: 1;
+  transition: transform ease-out 0.7s;
 }
