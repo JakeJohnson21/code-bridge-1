@@ -5,6 +5,7 @@
   max-width: 180px;
   left: 15px;
   top: 180px;
+  transition: width 0.3s 0s linear;
 }
 
 .data__menu-btn_container:hover > .data__menu-btn {
@@ -13,11 +14,12 @@
   right: 0;
   font-size: 15px;
   overflow: visible;
-  color: white;
+  color: rgb(40, 40, 40);
+  transition: width 0.3s 0s ease-in, color 0.3s 0.15s ease;
 }
 .data__menu-btn_container:hover + .main__content {
   left: 180px;
-  transition: left 0.4s 0s ease;
+  transition: left 0.3s 0s ease;
 }
 .data__menu-btn_container + .main__content {
   left: 80px;

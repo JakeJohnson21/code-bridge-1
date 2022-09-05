@@ -13,7 +13,7 @@ function Cover() {
         <li className="cover__label_item">Heat Map</li>
         <li className="cover__label_item">Heat Map</li>
         <li className="cover__label_item">Heat Map</li>
-        <li className="cover__label_item">Heat Map</li>
+        <li className="cover__label_item">Top 10 European Airports</li>
       </ul>
     </div>
   );

@@ -69,7 +69,7 @@ function Main() {
           setButton={handleIsDataFourOpen}
           closeAll={handleCloseAllPopups}
         >
-          map 4
+          Top 10
         </MenuBtn>
       </div>
       <div className="main__content">
@@ -98,9 +98,8 @@ function Main() {
           isOpen={isDataThreeOpen}
         />
         <Interactive
-          dataTitle="Emissions"
+          dataTitle="Top 10 Airports"
           dataSubtitle="I am the subtitle for the airport heat map"
-          dataImage=""
           name="four"
           isOpen={isDataFourOpen}
         />
