@@ -1,0 +1,16 @@
+.mobile__menu_is-open {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile__menu_is-open {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateX(0px);
+    transition: transform ease 0.8s;
+  }
+}

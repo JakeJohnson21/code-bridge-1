@@ -15,8 +15,10 @@
   font-size: 15px;
   overflow: visible;
   color: rgb(40, 40, 40);
-  transition: width 0.3s 0s ease-in, color 0.3s 0.15s ease;
+  transition: width 0.3s 0s ease-in, color 0.3s 0.15s ease,
+    background-color 1s 1.5s ease;
 }
+
 .data__menu-btn_container:hover + .main__content {
   left: 180px;
   transition: left 0.3s 0s ease;
@@ -25,6 +27,7 @@
   left: 80px;
   transition: left 0.4s 0.15s ease;
 }
+
 .data__menu-btn_container:hover
   + .main__content
   > .cover__content
@@ -35,4 +38,31 @@
 .data__menu-btn_container + .main__content > .cover__content > .cover__label {
   opacity: 1;
   transition: opacity 0.3s 0.45s ease;
+}
+
+@media screen and (max-width: 1100px) {
+  .data__menu-btn_container {
+    max-width: 100px;
+    left: 0;
+  }
+  .data__menu-btn_container:hover > .data__menu-btn {
+    width: 80px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .data__menu-btn_container:hover + .main__content {
+    left: 90px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .data__menu-btn_container {
+    display: none;
+  }
+  .data__menu-btn_container:hover + .main__content {
+    display: none;
+  }
+  .data__menu-btn_container + .main__content {
+    left: 0px;
+    transition: left 0.4s 0.15s ease;
+  }
 }

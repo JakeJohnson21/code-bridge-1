@@ -1,0 +1,11 @@
+.mobile__cover_content {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile__cover_content {
+    display: flex;
+    width: 100%;
+    min-height: auto;
+  }
+}

@@ -3,3 +3,16 @@
   font-size: 18px;
   list-style-type: none;
 }
+
+@media screen and (max-width: 1000px) {
+  .cover__label_item {
+    margin: 38px auto 38px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cover__label_item {
+    font-size: 1em;
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+}

@@ -6,13 +6,6 @@
   min-height: 697px;
   margin: 80px auto auto auto;
   border-radius: 30px;
-  /* background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  ); */
-  border-radius: 40px;
   box-sizing: border-box;
   border: 10px solid rgb(255, 255, 255);
   background-color: white;
@@ -21,4 +14,20 @@
 .analysis__box {
   display: flex;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  .main__modal {
+    min-height: 1100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main__modal {
+    max-width: 600px;
+    min-height: 1600px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }

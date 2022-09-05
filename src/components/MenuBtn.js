@@ -10,9 +10,7 @@ function MenuBtn({ button, setButton, closeAll, children }) {
 
   return (
     <button
-      className={`data__menu-btn data__menu-btn_open ${
-        button ? "data__menu-btn_active" : ""
-      }`}
+      className={`data__menu-btn  ${button ? "data__menu-btn_active" : ""}`}
       onClick={toggleBtn}
       type="button"
     >

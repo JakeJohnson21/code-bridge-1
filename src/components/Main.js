@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Analysis from "./Analysis";
 import Cover from "./Cover";
 import MenuBtn from "./MenuBtn";
+import MobileMenuBtn from "./MobileMenuBtn";
+import HideMenu from "./HideMenu";
 import Interactive from "./Interactive";
 
 function Main() {
@@ -9,13 +11,7 @@ function Main() {
   const [isDataTwoOpen, setIsDataTwoOpen] = useState(false);
   const [isDataThreeOpen, setIsDataThreeOpen] = useState(false);
   const [isDataFourOpen, setIsDataFourOpen] = useState(false);
-
-  const isDataOpen = [
-    isDataOneOpen,
-    isDataTwoOpen,
-    isDataThreeOpen,
-    isDataFourOpen,
-  ];
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   function handleIsDataOneOpen() {
     handleCloseAllPopups();
@@ -33,6 +29,18 @@ function Main() {
     handleCloseAllPopups();
     setIsDataFourOpen(true);
   }
+  /////////////////////////
+  function handleMenuOpen() {
+    setIsMenuOpen(true);
+  }
+  // function handleCloseMenu() {
+  //   setIsMenuOpen(false);
+  // }
+  function toggleMenu() {
+    handleCloseAllPopups();
+    return handleMenuOpen();
+  }
+  /////////////////////////
 
   function handleCloseAllPopups() {
     setIsDataOneOpen(false);
@@ -42,6 +50,8 @@ function Main() {
   }
   return (
     <div className="main__modal">
+      <MobileMenuBtn toggleMenu={toggleMenu} />
+
       <div className="data__menu-btn_container">
         <MenuBtn
           button={isDataOneOpen}
@@ -73,7 +83,19 @@ function Main() {
         </MenuBtn>
       </div>
       <div className="main__content">
-        <Cover isDataOpen={isDataOpen} />
+        <HideMenu
+          isOpen={isMenuOpen}
+          dataOneOpen={isDataOneOpen}
+          handleDataOne={handleIsDataOneOpen}
+          dataTwoOpen={isDataTwoOpen}
+          handleDataTwo={handleIsDataTwoOpen}
+          dataThreeOpen={isDataThreeOpen}
+          handleDataThree={handleIsDataThreeOpen}
+          isDataFourOpen={isDataFourOpen}
+          handleDataFour={handleIsDataFourOpen}
+          handleCloseAll={handleCloseAllPopups}
+        />
+        <Cover />
 
         <Analysis
           dataTitle="Airport Heat Map"

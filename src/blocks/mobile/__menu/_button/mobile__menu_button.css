@@ -1,0 +1,21 @@
+.mobile__menu_button {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile__menu_button {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 350px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    background-image: url("../../../../images/menu.svg");
+    background-repeat: no-repeat;
+  }
+  .mobile__menu_button:hover {
+    color: gray;
+  }
+}

@@ -1,7 +1,22 @@
 .cover__label {
   position: absolute;
   font-weight: 500;
-  left: -10px;
-  top: 136px;
+  left: -20px;
+  top: 138px;
   color: rgb(40, 40, 40);
+}
+
+@media screen and (max-width: 1000px) {
+  .cover__label {
+    left: -30px;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover__label {
+    top: 141px;
+    left: 80px;
+    padding: 0;
+  }
 }

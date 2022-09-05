@@ -10,3 +10,10 @@
   opacity: 1;
   transition: transform ease-out 0.7s;
 }
+@media screen and (max-width: 600px) {
+  .data__content_is-open {
+  }
+  .data__content_transform {
+    transform: translateX(600px);
+  }
+}
