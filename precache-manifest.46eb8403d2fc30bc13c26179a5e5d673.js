@@ -32,20 +32,20 @@ self.__precacheManifest = [
     "url": "jakejohnson21.github.io/code-bridge-1/static/media/Multi-graph.d0144eeb.png"
   },
   {
-    "revision": "5d5986f013af14724467befed8a87347",
-    "url": "jakejohnson21.github.io/code-bridge-1/static/media/menu.5d5986f0.svg"
-  },
-  {
-    "revision": "a32b6e45c316fd976351f29fedd25de8",
-    "url": "jakejohnson21.github.io/code-bridge-1/static/media/Comfortaa-Light.a32b6e45.ttf"
-  },
-  {
     "revision": "cca5f204199167bb2048b1550d4bba8e",
     "url": "jakejohnson21.github.io/code-bridge-1/static/media/Comfortaa-Medium.cca5f204.ttf"
   },
   {
+    "revision": "5d5986f013af14724467befed8a87347",
+    "url": "jakejohnson21.github.io/code-bridge-1/static/media/menu.5d5986f0.svg"
+  },
+  {
     "revision": "2df2dd0ee326686649aadb345e25c32c",
     "url": "jakejohnson21.github.io/code-bridge-1/static/media/Comfortaa-Bold.2df2dd0e.ttf"
+  },
+  {
+    "revision": "a32b6e45c316fd976351f29fedd25de8",
+    "url": "jakejohnson21.github.io/code-bridge-1/static/media/Comfortaa-Light.a32b6e45.ttf"
   },
   {
     "revision": "aa468c18356af4f5ea8789c0f655000f",
