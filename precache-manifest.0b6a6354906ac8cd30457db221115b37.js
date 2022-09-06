@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "06833448f6a697d83b17",
-    "url": "/code-bridge-1/static/css/main.62ffd9ff.chunk.css"
+    "revision": "1e787bfb9726c6221984",
+    "url": "/code-bridge-1/static/css/main.8ad2ee4e.chunk.css"
   },
   {
-    "revision": "06833448f6a697d83b17",
-    "url": "/code-bridge-1/static/js/main.d33f07a1.chunk.js"
+    "revision": "1e787bfb9726c6221984",
+    "url": "/code-bridge-1/static/js/main.d79a780e.chunk.js"
   },
   {
     "revision": "1239ebd099fdc4249b1e",
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/code-bridge-1/static/media/mobileMenu.cd39b9b2.svg"
   },
   {
-    "revision": "cca5f204199167bb2048b1550d4bba8e",
-    "url": "/code-bridge-1/static/media/Comfortaa-Medium.cca5f204.ttf"
-  },
-  {
     "revision": "2df2dd0ee326686649aadb345e25c32c",
     "url": "/code-bridge-1/static/media/Comfortaa-Bold.2df2dd0e.ttf"
+  },
+  {
+    "revision": "cca5f204199167bb2048b1550d4bba8e",
+    "url": "/code-bridge-1/static/media/Comfortaa-Medium.cca5f204.ttf"
   },
   {
     "revision": "bfc60126114153cf37cd8f6df4bb371d",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/code-bridge-1/static/media/Comfortaa-Light.a32b6e45.ttf"
   },
   {
-    "revision": "8e201b14d4d02ae4e4cb0f18bd89bcc1",
+    "revision": "d2693f6f93925ffd21fd01b0e06301cf",
     "url": "/code-bridge-1/index.html"
   }
 ];
