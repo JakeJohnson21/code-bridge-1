@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "jakejohnson21.github.io/code-bridge-1/precache-manifest.d9ec30fa1e4a4217f03524ff5cbb3998.js"
+  "jakejohnson21.github.io/code-bridge-1/precache-manifest.52d67aa90f6b46f09ad58399f8877d5d.js"
 );
 
 workbox.clientsClaim();
