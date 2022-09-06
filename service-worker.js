@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "jakejohnson21.github.io/code-bridge-1/precache-manifest.46eb8403d2fc30bc13c26179a5e5d673.js"
+  "/code-bridge-1/precache-manifest.f2613b30656da987525177619528de6c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("jakejohnson21.github.io/code-bridge-1/index.html", {
+workbox.routing.registerNavigationRoute("/code-bridge-1/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
