@@ -1,8 +1,6 @@
 .interactive__grid {
-  display: grid;
-  grid-template-columns: repeat(4, 2fr);
-  grid-template-rows: repeat(3 minmax(0, 1fr));
-  position: relative;
-
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  margin-bottom: ;
 }

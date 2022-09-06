@@ -21,7 +21,8 @@
 
 .data__menu-btn_container:hover + .main__content {
   left: 180px;
-  transition: left 0.3s 0s ease;
+  transform: translateX(50px);
+  transition: left 0.3s 0s ease, transform 0.25s 0s linear;
 }
 .data__menu-btn_container + .main__content {
   left: 80px;

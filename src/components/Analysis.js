@@ -12,8 +12,6 @@ function Analysis({ dataTitle, dataSubtitle, dataImage, children, isOpen }) {
       <div className="data__grid">
         <img src={dataImage} alt="." className="data__graph" />
         <p className="data__text-container">{children}</p>
-        <p className="data__legend"></p>
-        <p className="data__label"></p>
       </div>
     </div>
   );

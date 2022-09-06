@@ -14,8 +14,7 @@ function Interactive({ dataTitle, dataSubtitle, children, isOpen }) {
         <div className="interactive__graph">
           <Graph />
         </div>
-        <p className="data__text-container">{children}</p>
-        <p className="data__legend"></p>
+        <p className=" interactive__text-container tetes">{children}</p>
       </div>
     </div>
   );

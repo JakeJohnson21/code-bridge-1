@@ -7,8 +7,8 @@ function Graph() {
     <div className="line-chart">
       <Line
         datasetIdKey="id"
-        width={400}
-        height={180}
+        width={4}
+        height={2}
         data={{
           labels: ["2016", "2017", "2018", "2019", "2020", "2021"],
           datasets: [
@@ -169,6 +169,8 @@ function Graph() {
         }}
         options={{
           responsive: true,
+          maintainAspectRatio: true,
+          aspectRatio: 4 / 2,
           plugins: {
             datalabels: {
               color: "red",

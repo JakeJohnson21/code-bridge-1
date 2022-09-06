@@ -56,3 +56,4 @@ li {
 @import url(blocks/mobile/__menu/_content/mobile__menu_content.css);
 @import url(blocks/mobile/__data-btn/mobile__data-btn.css);
 @import url(blocks/mobile/__data-btn/_container/mobile__data-btn_container.css);
+@import url(blocks/interactive/__text-container/interactive__text-container.css);
