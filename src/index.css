@@ -26,7 +26,6 @@ li {
 @import url(blocks/image/image__cov-plane.css);
 @import url(blocks/image/image__plane-cut.css);
 @import url(blocks/data/__content/data__content.css);
-@import url(blocks/data/__image/data__image.css);
 @import url(blocks/data/__subtitle/data__subtitle.css);
 @import url(blocks/data/__text-container/data__text-container.css);
 @import url(blocks/data/__title/data__title.css);

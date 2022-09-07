@@ -1,5 +1,4 @@
 .data__graph {
-  border: 2px solid rgb(184, 184, 184, 0.2);
   border-radius: 25px;
   grid-column: 1/3;
   grid-row: 1/3;
