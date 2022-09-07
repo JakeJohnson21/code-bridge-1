@@ -23,18 +23,15 @@
   transition: transform 2s 1s 0s;
   box-sizing: border-box;
 }
-@media screen and (max-width: 1100px) {
-  .data__content {
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .data__content {
-  }
-}
 
 @media screen and (max-width: 600px) {
   .data__content {
     max-width: 600px;
+    overflow-y: scroll;
+  }
+}
+@media screen and (max-width: 450px) {
+  .data__content {
+    padding-bottom: 80px;
   }
 }

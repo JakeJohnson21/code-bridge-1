@@ -19,9 +19,11 @@
   background-color: #dadada;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .data__menu-btn {
-    max-width: 80px;
+    width: 40px;
+    height: 40px;
+    max-width: 120px;
     font-size: 8px;
   }
 }

@@ -6,9 +6,7 @@ function Footer() {
         <p className="footer__creator">
           Created by: Betül Yildirim & Jake Johnson
         </p>
-        <div className="footer__source">
-          <p>Menu icon by Icons8</p>
-        </div>
+        <p className="footer__cite">Menu icon by Icons8</p>
       </div>
     </footer>
   );

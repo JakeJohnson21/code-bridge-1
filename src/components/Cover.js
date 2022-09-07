@@ -10,8 +10,8 @@ function Cover() {
         </p>
       </div>
       <ul className="cover__label">
-        <li className="cover__label_item">Ready to go?</li>
-        <li className="cover__label_item">Heat Map</li>
+        <li className="cover__label_item">Delayed</li>
+        <li className="cover__label_item">Effects of COVID</li>
         <li className="cover__label_item">CO2 by flight</li>
         <li className="cover__label_item">Top 10 European Airports</li>
       </ul>

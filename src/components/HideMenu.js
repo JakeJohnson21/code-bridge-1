@@ -3,7 +3,6 @@ import MobileCover from "./MobileCover";
 import MenuBtn from "./MenuBtn";
 
 function HideMenu({
-  isOpen,
   dataOneOpen,
   handleDataOne,
   dataTwoOpen,
@@ -15,35 +14,35 @@ function HideMenu({
   handleCloseAll,
 }) {
   return (
-    <div className={"mobile__menu_is-open mobile__menu"}>
+    <div className={"mobile__menu"}>
       <div className="mobile__data-btn_container">
         <MenuBtn
           button={dataOneOpen}
           setButton={handleDataOne}
           closeAll={handleCloseAll}
         >
-          Heat Map
+          Delayed
         </MenuBtn>
         <MenuBtn
           button={dataTwoOpen}
           setButton={handleDataTwo}
           closeAll={handleCloseAll}
         >
-          map 2
+          Effects of COVID
         </MenuBtn>
         <MenuBtn
           button={dataThreeOpen}
           setButton={handleDataThree}
           closeAll={handleCloseAll}
         >
-          map 3
+          Flight CO2
         </MenuBtn>
         <MenuBtn
           button={dataFourOpen}
           setButton={handleDataFour}
           closeAll={handleCloseAll}
         >
-          Top 10
+          Top 10 european airports
         </MenuBtn>
       </div>
       <MobileCover />

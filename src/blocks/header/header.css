@@ -1,5 +1,11 @@
 .header {
   display: flex;
-  min-height: 250px;
+  /* min-height: 250pax; */
   flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    height: auto;
+  }
 }

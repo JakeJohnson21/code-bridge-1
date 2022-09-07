@@ -1,0 +1,19 @@
+.description__text-content {
+  max-width: 1000px;
+  margin: 20px auto 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .description__text-content {
+    width: 90%;
+  }
+  .description__text-content-conclusion {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 600px) {
+}

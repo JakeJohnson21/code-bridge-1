@@ -10,5 +10,6 @@
 @media screen and (max-width: 700px) {
   .interactive__text-container {
     font-size: 12px;
+    margin: 20px auto;
   }
 }

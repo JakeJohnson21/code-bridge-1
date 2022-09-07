@@ -68,14 +68,14 @@ function Main() {
           setButton={handleIsDataTwoOpen}
           closeAll={handleCloseAllPopups}
         >
-          map 2
+          COVID
         </MenuBtn>
         <MenuBtn
           button={isDataThreeOpen}
           setButton={handleIsDataThreeOpen}
           closeAll={handleCloseAllPopups}
         >
-          CO2
+          Flight CO2
         </MenuBtn>
         <MenuBtn
           button={isDataFourOpen}
@@ -102,7 +102,6 @@ function Main() {
 
         <Analysis
           dataTitle="Airports that can't keep up"
-          dataSubtitle="I am the subtitle for the airport heat map"
           dataImage={barGraph}
           name="one"
           isOpen={isDataOneOpen}
@@ -115,8 +114,7 @@ function Main() {
           the highest ranking. Italy is responsible for 27% of top ranked.
         </Analysis>
         <Analysis
-          dataTitle="Emissions at the airport"
-          dataSubtitle="I am the subtitle for the emissions"
+          dataTitle="Effects of COVID"
           dataImage={lineGraph}
           name="two"
           isOpen={isDataTwoOpen}
@@ -132,7 +130,6 @@ function Main() {
         </Analysis>
         <Analysis
           dataTitle="CO2 Emissions Per Flight"
-          dataSubtitle="I am the subtitle for the covid"
           dataImage={multiGraph}
           name="three"
           isOpen={isDataThreeOpen}
@@ -147,7 +144,6 @@ function Main() {
         </Analysis>
         <Interactive
           dataTitle="Top 10 Airports"
-          dataSubtitle="I am the subtitle for the airport heat map"
           name="four"
           isOpen={isDataFourOpen}
         >

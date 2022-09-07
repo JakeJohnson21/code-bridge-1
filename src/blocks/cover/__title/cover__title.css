@@ -8,8 +8,18 @@
     font-size: 2rem;
   }
 }
+@media screen and (max-width: 750px) {
+  .cover__title {
+    font-size: 1.75em;
+  }
+}
 @media screen and (max-width: 600px) {
   .cover__title {
     margin-left: 5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cover__title {
+    font-size: 1.5em;
   }
 }

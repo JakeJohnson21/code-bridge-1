@@ -168,9 +168,6 @@ function Graph() {
           ],
         }}
         options={{
-          responsive: true,
-          maintainAspectRatio: true,
-          aspectRatio: 4 / 2,
           plugins: {
             datalabels: {
               color: "red",
