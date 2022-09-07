@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1e787bfb9726c6221984",
-    "url": "/code-bridge-1/static/css/main.8ad2ee4e.chunk.css"
+    "revision": "b721fa3cf0c5c507637d",
+    "url": "/code-bridge-1/static/css/main.b433e030.chunk.css"
   },
   {
-    "revision": "1e787bfb9726c6221984",
-    "url": "/code-bridge-1/static/js/main.d79a780e.chunk.js"
+    "revision": "b721fa3cf0c5c507637d",
+    "url": "/code-bridge-1/static/js/main.1c127c05.chunk.js"
   },
   {
     "revision": "1239ebd099fdc4249b1e",
@@ -32,6 +32,14 @@ self.__precacheManifest = [
     "url": "/code-bridge-1/static/media/Multi-graph.d0144eeb.png"
   },
   {
+    "revision": "a32b6e45c316fd976351f29fedd25de8",
+    "url": "/code-bridge-1/static/media/Comfortaa-Light.a32b6e45.ttf"
+  },
+  {
+    "revision": "cca5f204199167bb2048b1550d4bba8e",
+    "url": "/code-bridge-1/static/media/Comfortaa-Medium.cca5f204.ttf"
+  },
+  {
     "revision": "cd39b9b230ffe56cff0e88cf164c20d3",
     "url": "/code-bridge-1/static/media/mobileMenu.cd39b9b2.svg"
   },
@@ -40,19 +48,11 @@ self.__precacheManifest = [
     "url": "/code-bridge-1/static/media/Comfortaa-Bold.2df2dd0e.ttf"
   },
   {
-    "revision": "cca5f204199167bb2048b1550d4bba8e",
-    "url": "/code-bridge-1/static/media/Comfortaa-Medium.cca5f204.ttf"
-  },
-  {
     "revision": "bfc60126114153cf37cd8f6df4bb371d",
     "url": "/code-bridge-1/static/media/mobileMenuOpen.bfc60126.svg"
   },
   {
-    "revision": "a32b6e45c316fd976351f29fedd25de8",
-    "url": "/code-bridge-1/static/media/Comfortaa-Light.a32b6e45.ttf"
-  },
-  {
-    "revision": "d2693f6f93925ffd21fd01b0e06301cf",
+    "revision": "92950e333835a82799eb23ff9058126b",
     "url": "/code-bridge-1/index.html"
   }
 ];
