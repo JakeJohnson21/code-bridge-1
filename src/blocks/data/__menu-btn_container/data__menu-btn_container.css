@@ -20,12 +20,12 @@
 }
 
 .data__menu-btn_container:hover + .main__content {
-  left: 150px;
+  left: 120px;
   transform: translateX(60px);
   transition: left 0.3s 0s ease, transform 0.25s 0s linear;
 }
 .data__menu-btn_container + .main__content {
-  left: 70px;
+  left: 80px;
   transition: left 0.4s 0.15s ease;
 }
 
