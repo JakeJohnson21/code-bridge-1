@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Analysis({ dataTitle, dataImage, children, isOpen }) {
-  function previewImage(event) {
-    console.log(event.target);
+  const [isPreviewOpen, setIsPreviewOpen] = useState(false);
+
+  function handlePreviewOpen() {
+    setIsPreviewOpen(true);
   }
 
   return (
@@ -15,7 +17,7 @@ function Analysis({ dataTitle, dataImage, children, isOpen }) {
       <div className="data__grid">
         <img
           src={dataImage}
-          onClick={previewImage}
+          onClick={handlePreviewOpen}
           alt="graph"
           className="data__graph"
         />
